@@ -1,1 +1,3 @@
 # Game
+Prueba de concepto original del juego (Insertar normbre del juego aquí), el cuál está fuertemente inspirado en Advance Wars con algunas mecánicas nuevas como por ejemplo el atrincheramiento y la fortificación de unidades, de momento el principal lenguaje de programación es pygame y pues xD, luego tengo que revisar el nivel de privacidad del proyecto para que alguien no se lo fusile eventualmente ya que se llama game.
+Atte. Zoren (Nota para Xtreme del futuro cuando sea que veas el cambio al Read Me xD, siéntete libre de cambiar la descripción después solo pensaba en usar este documento para poner las decisiones de diseño y mantenerlas medianamente organizadas xD)
