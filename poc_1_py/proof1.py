@@ -3,9 +3,17 @@ import pygame, sys
 from pygame.locals import *
 pygame.init()
 
-WINDOW_SIZE = (400, 400)
+clock = pygame.time.Clock()
+
+pygame.display.set_caption('Game')
+
+WINDOW_SIZE = (1280, 720)
 
 screen = pygame.display.set_mode(WINDOW_SIZE, 0, 32)
+
+display = pygame.surface((300, 300))
+
+
 
 while True:
 
