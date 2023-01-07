@@ -12,8 +12,18 @@ WINDOW_SIZE = (1280, 720)
 screen = pygame.display.set_mode(WINDOW_SIZE, 0, 32)
 
 display = pygame.surface((300, 300))
+unit1_image = pygame.image.load('player.png').convert()
+unit1_image.set_colorkey(0, 0, 0)
+grass_image = pygame.image.load('grass.png').convert()
+TILE_SIZE = grass_image.get_height()
+dirt_image = pygame.image.load('dirt.png').convert()
+dirt_image.set_colorkey(0, 0, 0)
 
+background_object = [[0.25, [120, 10, 70, 400]], [0.25, [280, 30, 40, 400]], [0.5, [30, 40, 40, 400]], [0.5, [130, 90, 100, 400]], [0.5, [300, 80, 120, 400]]]
 
+def load_map(path):
+    f = open(path + '.txt', 'r')
+    
 
 while True:
 
