@@ -23,7 +23,17 @@ background_object = [[0.25, [120, 10, 70, 400]], [0.25, [280, 30, 40, 400]], [0.
 
 def load_map(path):
     f = open(path + '.txt', 'r')
-    
+    data = f.read()
+    f.close()
+    data = data.split('\n')
+    game_map = []
+    for row in data:
+        game_map.append(list(row))
+    return game_map
+
+game_map = load_map('map')
+
+
 
 while True:
 
